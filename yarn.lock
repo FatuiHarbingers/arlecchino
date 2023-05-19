@@ -16,6 +16,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@arlecchino/secrets@workspace:packages/secrets":
+  version: 0.0.0-use.local
+  resolution: "@arlecchino/secrets@workspace:packages/secrets"
+  dependencies:
+    "@types/node": ^18.16.13
+    eslint: ^8.40.0
+    rimraf: ^5.0.1
+    ts-dotenv: ^0.9.1
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@bitomic/eslint-config@npm:^1.2.0":
   version: 1.2.0
   resolution: "@bitomic/eslint-config@npm:1.2.0"
@@ -1295,6 +1307,13 @@ __metadata:
   dependencies:
     is-number: ^7.0.0
   checksum: f76fa01b3d5be85db6a2a143e24df9f60dd047d151062d0ba3df62953f2f697b16fe5dad9b0ac6191c7efc7b1d9dcaa4b768174b7b29da89d4428e64bc0a20ed
+  languageName: node
+  linkType: hard
+
+"ts-dotenv@npm:^0.9.1":
+  version: 0.9.1
+  resolution: "ts-dotenv@npm:0.9.1"
+  checksum: ad2cc75747a99bc358f6576bb6ee37144bb3d18da1dfde45d5490b73cc383a5c5141298353ff85e2bf69ca4680924a2d958afe36cc0b069c9e31da45c7c6cb88
   languageName: node
   linkType: hard
 
