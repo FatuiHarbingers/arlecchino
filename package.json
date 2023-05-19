@@ -1,16 +1,13 @@
 {
-  "name": "yarn-template",
+  "name": "arlecchino",
   "version": "1.0.0",
   "main": "dist/main.js",
   "author": "bitomic",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "rimraf tsconfig.tsbuildinfo dist && yarn tsc --listEmittedFiles --incremental",
-    "build:watch": "yarn tsc -w --incremental",
-    "lint": "eslint src/ --ext .ts --cache",
-    "lint:fix": "eslint src/ --fix --ext .ts --cache",
-    "start": "yarn node --enable-source-maps dist/main.js"
+    "build": "yarn workspaces foreach -pvt run build",
+    "lint": "yarn workspaces foreach -pv --exclude arlecchino run lint"
   },
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
@@ -28,5 +25,8 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

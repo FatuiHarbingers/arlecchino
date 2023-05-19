@@ -5,6 +5,17 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@arlecchino/bot@workspace:packages/bot":
+  version: 0.0.0-use.local
+  resolution: "@arlecchino/bot@workspace:packages/bot"
+  dependencies:
+    "@types/node": ^18.16.13
+    eslint: ^8.40.0
+    rimraf: ^5.0.1
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@bitomic/eslint-config@npm:^1.2.0":
   version: 1.2.0
   resolution: "@bitomic/eslint-config@npm:1.2.0"
@@ -335,6 +346,20 @@ __metadata:
   checksum: 83644b56493e89a254bae05702abf3a1101b4fa4d0ca31df1c9985275a5a5bd47b3c27b7fa0b71098d41114d8ca000e6ed90cad764b306f8a503665e4d517ced
   languageName: node
   linkType: hard
+
+"arlecchino@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "arlecchino@workspace:."
+  dependencies:
+    "@bitomic/eslint-config": ^1.2.0
+    "@types/node": ^18.16.13
+    "@typescript-eslint/eslint-plugin": ^5.59.6
+    "@typescript-eslint/parser": ^5.59.6
+    eslint: ^8.40.0
+    rimraf: ^5.0.1
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
 
 "array-union@npm:^2.1.0":
   version: 2.1.0
@@ -1382,20 +1407,6 @@ __metadata:
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
   languageName: node
   linkType: hard
-
-"yarn-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "yarn-template@workspace:."
-  dependencies:
-    "@bitomic/eslint-config": ^1.2.0
-    "@types/node": ^18.16.13
-    "@typescript-eslint/eslint-plugin": ^5.59.6
-    "@typescript-eslint/parser": ^5.59.6
-    eslint: ^8.40.0
-    rimraf: ^5.0.1
-    typescript: ^5.0.4
-  languageName: unknown
-  linkType: soft
 
 "yocto-queue@npm:^0.1.0":
   version: 0.1.0
