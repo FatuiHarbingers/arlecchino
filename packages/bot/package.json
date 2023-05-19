@@ -13,5 +13,10 @@
 		"eslint": "^8.40.0",
 		"rimraf": "^5.0.1",
 		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"@arlecchino/secrets": "workspace:^",
+		"@discordjs/rest": "^1.7.1",
+		"@discordjs/ws": "^0.8.3"
 	}
 }
