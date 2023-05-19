@@ -9,6 +9,7 @@
     "build": "yarn workspaces foreach -pvt run build",
     "lint": "yarn workspaces foreach -pv --exclude arlecchino run lint",
     "bot": "yarn workspace @arlecchino/bot",
+    "prisma": "yarn workspace @arlecchino/prisma",
     "secrets": "yarn workspace @arlecchino/secrets",
     "worker": "yarn workspace @arlecchino/worker"
   },

@@ -1,0 +1,51 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output = "../src/client"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum ProfileType {
+  Default
+  Discussions
+  LogEvents
+  RecentChanges
+}
+
+model Profile {
+  avatar             String?        @db.VarChar(255)
+  color              Int?           @default(44225)
+  name               String?        @db.VarChar(255)
+  type               ProfileType
+  Configuration      Configuration? @relation(fields: [configurationGuild, configurationWiki], references: [guild, wiki])
+  configurationGuild String         @db.VarChar(255)
+  configurationWiki  String         @db.VarChar(255)
+
+  @@unique([configurationGuild, configurationWiki, type])
+}
+
+model Configuration {
+  channel        String    @db.VarChar(255)
+  guild          String    @db.VarChar(255)
+  profiles       Profile[]
+  wiki           String    @db.VarChar(255)
+  Guild          Guild?    @relation(fields: [guildSnowflake], references: [snowflake])
+  guildSnowflake String?   @db.VarChar(255)
+
+  @@id([guild, wiki])
+  @@map("Configurations")
+}
+
+model Guild {
+  configurations Configuration[]
+  limit          Int?            @default(1)
+  snowflake      String          @id @db.VarChar(255)
+
+  @@map("Guilds")
+}
