@@ -31,6 +31,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@arlecchino/worker@workspace:packages/worker":
+  version: 0.0.0-use.local
+  resolution: "@arlecchino/worker@workspace:packages/worker"
+  dependencies:
+    "@types/node": ^18.16.13
+    eslint: ^8.40.0
+    rimraf: ^5.0.1
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@bitomic/eslint-config@npm:^1.2.0":
   version: 1.2.0
   resolution: "@bitomic/eslint-config@npm:1.2.0"
