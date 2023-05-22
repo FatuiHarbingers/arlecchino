@@ -32,8 +32,6 @@ export class ActivityTask extends Task {
 	}
 
 	public async run(): Promise<void> {
-		if ( this.api === 'https://genshin-impact.fandom.com/es/api.php' ) return
-
 		this.logger.info( 'Starting task' )
 		const lastCheck = new Date( '2023-05-19T21:43:21.110Z' )// await this.getLastCheck()
 		const now = new Date( Date.now() - Time.Second * 3 )
@@ -72,12 +70,17 @@ export class ActivityTask extends Task {
 						text: `${ await this.getSitename() }${ embed.data.footer?.text ?? '' }`
 					} )
 
-					const req = await rest.post( Routes.webhook( webhookId, webhookToken ), {
+					await rest.post( Routes.webhook( webhookId, webhookToken ), {
 						body: {
-							avatarUrl: profile?.avatar ?? avatar,
+							avatar_url: profile?.avatar ?? avatar,
 							embeds: [ embed.toJSON() ],
 							username: profile?.name ?? undefined
-						}
+						},
+						files: [ {
+							contentType: 'image/x-png',
+							data: await this.getFavicon() ?? '',
+							name: 'favicon.png'
+						} ]
 					} )
 				}
 			}
