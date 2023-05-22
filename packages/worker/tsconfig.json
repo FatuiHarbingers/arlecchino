@@ -1,8 +1,10 @@
 {
 	"compilerOptions": {
 		"outDir": "dist",
-		"rootDir": "src"
+		"rootDir": "src",
+		"resolveJsonModule": true
 	},
 	"exclude": [ "dist" ],
-	"extends": "../../tsconfig.json"
+	"extends": "../../tsconfig.json",
+	"include": [ "src/**/*.ts", "src/**/*.json" ]
 }

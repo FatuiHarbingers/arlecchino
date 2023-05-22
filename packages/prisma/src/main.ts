@@ -1,3 +1,2 @@
-import { PrismaClient } from './client'
-
-export const client = new PrismaClient()
+export * from '@prisma/client'
+export type * from '@prisma/client'

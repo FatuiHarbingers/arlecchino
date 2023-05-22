@@ -5,6 +5,7 @@
 		"target": "ES6",
 		"skipLibCheck": true,
 		"strict": true,
+		"declaration": true,
 		"sourceMap": true,
 
 		/* The "No" Corner */

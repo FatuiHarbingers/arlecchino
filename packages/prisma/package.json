@@ -2,6 +2,7 @@
 	"name": "@arlecchino/prisma",
 	"version": "1.0.0",
 	"main": "dist/main.js",
+	"types": "dist/main.d.ts",
 	"private": true,
 	"scripts": {
 		"build": "rimraf tsconfig.tsbuildinfo dist && tsc",
