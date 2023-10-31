@@ -20,7 +20,7 @@
 		"@bitomic/logger": "^1.0.0",
 		"@discordjs/builders": "^1.6.5",
 		"@discordjs/formatters": "^0.3.2",
-		"@quority/activity": "^1.1.1",
+		"@quority/activity": "^1.1.2",
 		"@quority/core": "^4.0.4",
 		"@quority/fandom": "^4.0.9",
 		"@sapphire/discord.js-utilities": "^6.1.0",
