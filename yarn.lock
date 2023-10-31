@@ -63,7 +63,7 @@ __metadata:
     "@arlecchino/secrets": "workspace:^"
     "@bitomic/logger": ^1.0.0
     "@discordjs/builders": ^1.6.5
-    "@discordjs/formatters": ^0.3.1
+    "@discordjs/formatters": ^0.3.2
     "@quority/activity": ^1.1.1
     "@quority/core": ^4.0.4
     "@quority/fandom": ^4.0.9
@@ -158,15 +158,6 @@ __metadata:
   version: 1.5.1
   resolution: "@discordjs/collection@npm:1.5.1"
   checksum: 98cc9cff3c7e6f919097b7ffc96f0a13eba2a90265d187b4db5f8cc09b550efd3d9fc952a21d92a08baf7d9e06d0bfa0467e8d0dbccb2d2f8eb0ee124b8b38d4
-  languageName: node
-  linkType: hard
-
-"@discordjs/formatters@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@discordjs/formatters@npm:0.3.1"
-  dependencies:
-    discord-api-types: ^0.37.41
-  checksum: 96355687853a203b280484419cd96a79b79b4b98f0469ec15be073862fb340cbd60ca2ea68f3d4684e17ff0e8c5f04ddcc6dd88188808e01fcbe0e3eea052d6d
   languageName: node
   linkType: hard
 
