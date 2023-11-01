@@ -61,7 +61,7 @@ __metadata:
     "@arlecchino/bot": "workspace:^"
     "@arlecchino/prisma": "workspace:^"
     "@arlecchino/secrets": "workspace:^"
-    "@bitomic/logger": ^1.0.0
+    "@bitomic/logger": ^1.1.0
     "@discordjs/builders": ^1.6.5
     "@discordjs/formatters": ^0.3.2
     "@quority/activity": ^1.1.2
@@ -100,17 +100,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bitomic/logger@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@bitomic/logger@npm:1.0.0"
+"@bitomic/logger@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@bitomic/logger@npm:1.1.0"
   dependencies:
-    "@types/split": ^1.0.1
-    colorette: ^2.0.19
+    "@types/split": ^1.0.2
+    colorette: ^2.0.20
     split: ^1.0.1
-    winston: ^3.8.1
+    winston: ^3.9.0
   bin:
     history: dist/bin.js
-  checksum: e4fda813edaba7140391f25544ede5add15638e3eeef1c5e85e6bb1d3b1bcfb318db98bd302d9b0767ccfb4345e30d212f7e47d0f35b7839eb1f013284c59df4
+  checksum: 46a0936db39ec71087b3fe5a3624d3b0cadf03d00b2915180876bb11e6963b1ed541f792622bfacb40282050f33a2774895c30259b6456e5574f539aba53011c
   languageName: node
   linkType: hard
 
@@ -125,6 +125,13 @@ __metadata:
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
   checksum: d64d5260bed1d5012ae3fc617d38d1afc0329fec05342f4e6b838f46998855ba56e0a73833f4a80fa8378c84810da254f76a8a19c39d038260dc06dc4e007425
+  languageName: node
+  linkType: hard
+
+"@colors/colors@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "@colors/colors@npm:1.6.0"
+  checksum: aa209963e0c3218e80a4a20553ba8c0fbb6fa13140540b4e5f97923790be06801fc90172c1114fc8b7e888b3d012b67298cde6b9e81521361becfaee400c662f
   languageName: node
   linkType: hard
 
@@ -658,13 +665,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/split@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "@types/split@npm:1.0.2"
+"@types/split@npm:^1.0.2":
+  version: 1.0.4
+  resolution: "@types/split@npm:1.0.4"
   dependencies:
     "@types/node": "*"
     "@types/through": "*"
-  checksum: ba9f000b18e25671ad329df73b95ef95128844f49470c8836bacbd0f0c181d258c07e7e4828209aa6c2af36bd508fb6eee114958696667da79e702001a5af5bf
+  checksum: 248763141156687fbfa8dbbd2d94afe816396e437beca61538ecb141c5e9bc60ecf6d886ae1a0fa7c19b3593d6b9986dce53c515626989523e2104251446793a
   languageName: node
   linkType: hard
 
@@ -1357,7 +1364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorette@npm:^2.0.19":
+"colorette@npm:^2.0.20":
   version: 2.0.20
   resolution: "colorette@npm:2.0.20"
   checksum: 0c016fea2b91b733eb9f4bcdb580018f52c0bc0979443dad930e5037a968237ac53d9beb98e218d2e9235834f8eebce7f8e080422d6194e957454255bde71d3d
@@ -3684,11 +3691,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"winston@npm:^3.8.1":
-  version: 3.8.2
-  resolution: "winston@npm:3.8.2"
+"winston@npm:^3.9.0":
+  version: 3.11.0
+  resolution: "winston@npm:3.11.0"
   dependencies:
-    "@colors/colors": 1.5.0
+    "@colors/colors": ^1.6.0
     "@dabh/diagnostics": ^2.0.2
     async: ^3.2.3
     is-stream: ^2.0.0
@@ -3699,7 +3706,7 @@ __metadata:
     stack-trace: 0.0.x
     triple-beam: ^1.3.0
     winston-transport: ^4.5.0
-  checksum: f7b901798b92ab9e93c850110bf6e98500e9a0e762b62dab410cf928b2a4145533dfa6d3d2b24f7bf0dc94b53808d5bd28aaaeff9a4b43b89ea4c798cce308ea
+  checksum: ca4454070f7a71b19f53c8c1765c59a013dab220edb49161b2e81917751d3e9edc3382430e4fb050feda04fb8463290ecab7cbc9240ec8d3d3b32a121849bbb0
   languageName: node
   linkType: hard
 
