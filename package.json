@@ -24,7 +24,7 @@
     "typescript": "^5.0.4"
   },
   "resolutions": {
-    "listr2": "^6.6.1"
+    "listr2": "^7.0.2"
   },
   "publishConfig": {
     "access": "public"
