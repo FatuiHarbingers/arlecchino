@@ -72,7 +72,7 @@ __metadata:
     "@sapphire/shapeshift": ^3.9.3
     "@skyra/i18next-backend": ^2.0.4
     "@types/node": ^18.18.8
-    bullmq: ^3.13.4
+    bullmq: ^3.15.8
     discord-api-types: ^0.37.62
     eslint: ^8.40.0
     i18next: ^22.5.1
@@ -1141,9 +1141,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bullmq@npm:^3.13.4":
-  version: 3.13.4
-  resolution: "bullmq@npm:3.13.4"
+"bullmq@npm:^3.15.8":
+  version: 3.15.8
+  resolution: "bullmq@npm:3.15.8"
   dependencies:
     cron-parser: ^4.6.0
     glob: ^8.0.3
@@ -1153,7 +1153,7 @@ __metadata:
     semver: ^7.3.7
     tslib: ^2.0.0
     uuid: ^9.0.0
-  checksum: 6f40ca98f910bc5f4ebc23fc5488b1dfe205999b7d10c77940e1963cfbe6025449a9c4aaceabf5e5989b222820ffae6279e0afb432b15eebc9dfc17c1e5ad483
+  checksum: bca20de291acbb97c67736c2d29b88b4f99e372ffd818b2041d4629ffba126a8c75ba6e25a1d181053c6e03ee4e260020e67fbb91412908040273187146493a4
   languageName: node
   linkType: hard
 
