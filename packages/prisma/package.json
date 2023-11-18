@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"@types/node": "^20.9.1",
 		"@yarnpkg/pnpify": "^4.0.1",
-		"eslint": "^8.53.0",
+		"eslint": "^8.54.0",
 		"rimraf": "^5.0.5",
 		"typescript": "^5.2.2"
 	},
