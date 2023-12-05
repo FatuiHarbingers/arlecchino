@@ -26,7 +26,7 @@ __metadata:
   resolution: "@arlecchino/bot@workspace:packages/bot"
   dependencies:
     "@arlecchino/secrets": "workspace:^"
-    "@discordjs/rest": ^1.7.1
+    "@discordjs/rest": ^2.2.0
     "@discordjs/ws": ^0.8.3
     "@types/node": ^20.10.3
     eslint: ^8.55.0
@@ -175,6 +175,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@discordjs/collection@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@discordjs/collection@npm:2.0.0"
+  checksum: c2d05fa2b9a27bb64e93e2836bbe44c835d21f85e28cd934f6e2a81fef423ab0415968cca9d066b83347539edc8ea9afa8075d80bd62594e39f09eb881052c49
+  languageName: node
+  linkType: hard
+
 "@discordjs/formatters@npm:^0.3.3":
   version: 0.3.3
   resolution: "@discordjs/formatters@npm:0.3.3"
@@ -197,6 +204,23 @@ __metadata:
     tslib: ^2.5.0
     undici: ^5.22.0
   checksum: 397dca0f2433dcc20c98805427388dd2ab09b906c429185e5d7cfc5057ad7b2a815653482476cffb64b8e1c3628ff254d927796316956d737375be22383c88d7
+  languageName: node
+  linkType: hard
+
+"@discordjs/rest@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@discordjs/rest@npm:2.2.0"
+  dependencies:
+    "@discordjs/collection": ^2.0.0
+    "@discordjs/util": ^1.0.2
+    "@sapphire/async-queue": ^1.5.0
+    "@sapphire/snowflake": ^3.5.1
+    "@vladfrangu/async_event_emitter": ^2.2.2
+    discord-api-types: 0.37.61
+    magic-bytes.js: ^1.5.0
+    tslib: ^2.6.2
+    undici: 5.27.2
+  checksum: 29a14ecf3282ae3306883f1f6c870693d0ecacd080c5b66a72e31487a8070655807a80a8bf09bebea4f73e631439abc5121dfa38016ca0ccbe3f68c0f7ffc80e
   languageName: node
   linkType: hard
 
@@ -569,6 +593,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sapphire/snowflake@npm:^3.5.1":
+  version: 3.5.2
+  resolution: "@sapphire/snowflake@npm:3.5.2"
+  checksum: f88ee6b167abd83868092b71d68ad36599e922948d1b77ba694c1e13afafc46d4b07914d86ad5af6841cb4b95ceaffd940affe56576362a1c7a5d28a4344f3e4
+  languageName: node
+  linkType: hard
+
 "@sapphire/utilities@npm:^3.11.1":
   version: 3.11.2
   resolution: "@sapphire/utilities@npm:3.11.2"
@@ -880,6 +911,13 @@ __metadata:
   version: 2.2.2
   resolution: "@vladfrangu/async_event_emitter@npm:2.2.2"
   checksum: ed948294fea1a2dc8b8f307f4061bf65e2043a946132f288702f0572a806ebe3123b8c7e522e70d2abbd3616f5d67027c9e59df9ef80b0195f7502a848a426ba
+  languageName: node
+  linkType: hard
+
+"@vladfrangu/async_event_emitter@npm:^2.2.2":
+  version: 2.2.4
+  resolution: "@vladfrangu/async_event_emitter@npm:2.2.4"
+  checksum: ff65ebc4d89639adecd249e24e4f6f97b7696404f2a4461160efdff628d91de543e982727c18de62a4edada3f66381b5a3cd1d4f4f33098075d839c1b4f46979
   languageName: node
   linkType: hard
 
@@ -2525,6 +2563,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-bytes.js@npm:^1.5.0":
+  version: 1.6.0
+  resolution: "magic-bytes.js@npm:1.6.0"
+  checksum: 1eece5f31ff56e8aaa994e086687b60ecf34632a5301a513bf618e7fda7afc4a67cb60ba08c90bbd77618b0814674780b48cec0c1111174a5f5fedf592cdcd79
+  languageName: node
+  linkType: hard
+
 "make-fetch-happen@npm:^10.0.3":
   version: 10.2.1
   resolution: "make-fetch-happen@npm:10.2.1"
@@ -3613,6 +3658,15 @@ __metadata:
   version: 5.26.5
   resolution: "undici-types@npm:5.26.5"
   checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
+  languageName: node
+  linkType: hard
+
+"undici@npm:5.27.2":
+  version: 5.27.2
+  resolution: "undici@npm:5.27.2"
+  dependencies:
+    "@fastify/busboy": ^2.0.0
+  checksum: 22bbdd763798700979986546d70072b67223189353d2a811efa9c6e44476161a0d1781ffe24115221f69a1b344b95d5926bd39a6eb760a2cd8804781cec0c5eb
   languageName: node
   linkType: hard
 
