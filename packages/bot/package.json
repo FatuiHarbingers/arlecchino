@@ -12,7 +12,7 @@
 		"@types/node": "^20.10.3",
 		"eslint": "^8.55.0",
 		"rimraf": "^5.0.5",
-		"typescript": "^5.3.2"
+		"typescript": "^5.3.3"
 	},
 	"dependencies": {
 		"@arlecchino/secrets": "workspace:^",
