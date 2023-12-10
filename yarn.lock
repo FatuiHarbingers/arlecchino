@@ -77,7 +77,7 @@ __metadata:
     "@sapphire/discord.js-utilities": ^6.1.0
     "@sapphire/duration": ^1.1.1
     "@sapphire/shapeshift": ^3.9.4
-    "@skyra/i18next-backend": ^2.0.4
+    "@skyra/i18next-backend": ^2.0.5
     "@types/node": ^20.10.4
     bullmq: ^3.15.8
     discord-api-types: ^0.37.66
@@ -583,12 +583,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skyra/i18next-backend@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "@skyra/i18next-backend@npm:2.0.4"
+"@skyra/i18next-backend@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "@skyra/i18next-backend@npm:2.0.5"
   dependencies:
     tslib: ^2.6.2
-  checksum: ce139a4f66639ae04a21a21bbc7fea7a86b1f656e773d6e2f6f93f8314b48916f7ef54686ee69bce56c46ec78a88a2a63aa65ffc03ef4a3d14339576911225f5
+  checksum: 368cbc92636485469a08445dc7f67c1ff1875a24ac094791525ca996275dfb2a6eb66860c9d0170b21964a84456246315467eb201f1a59c1a7388b7bb6d9595d
   languageName: node
   linkType: hard
 
