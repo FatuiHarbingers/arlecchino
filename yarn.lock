@@ -79,7 +79,7 @@ __metadata:
     "@sapphire/shapeshift": ^3.9.5
     "@skyra/i18next-backend": ^2.0.5
     "@types/node": ^20.10.5
-    bullmq: ^3.15.8
+    bullmq: ^4.17.0
     discord-api-types: ^0.37.66
     eslint: ^8.56.0
     i18next: ^22.5.1
@@ -1196,19 +1196,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bullmq@npm:^3.15.8":
-  version: 3.15.8
-  resolution: "bullmq@npm:3.15.8"
+"bullmq@npm:^4.17.0":
+  version: 4.17.0
+  resolution: "bullmq@npm:4.17.0"
   dependencies:
     cron-parser: ^4.6.0
     glob: ^8.0.3
     ioredis: ^5.3.2
     lodash: ^4.17.21
     msgpackr: ^1.6.2
-    semver: ^7.3.7
+    node-abort-controller: ^3.1.1
+    semver: ^7.5.4
     tslib: ^2.0.0
     uuid: ^9.0.0
-  checksum: bca20de291acbb97c67736c2d29b88b4f99e372ffd818b2041d4629ffba126a8c75ba6e25a1d181053c6e03ee4e260020e67fbb91412908040273187146493a4
+  checksum: 5d8520ff7ccffcb115e602658e5f5fe27c25bfa1cc459608071fcedfd59844f76ba094e55970c5c7c7ac6ad763a690ecb54f69736496c563d4c6ddf745153bf4
   languageName: node
   linkType: hard
 
@@ -2771,6 +2772,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-abort-controller@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "node-abort-controller@npm:3.1.1"
+  checksum: 2c340916af9710328b11c0828223fc65ba320e0d082214a211311bf64c2891028e42ef276b9799188c4ada9e6e1c54cf7a0b7c05dd9d59fcdc8cd633304c8047
+  languageName: node
+  linkType: hard
+
 "node-gyp-build-optional-packages@npm:5.0.7":
   version: 5.0.7
   resolution: "node-gyp-build-optional-packages@npm:5.0.7"
@@ -3204,7 +3212,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.1.2, semver@npm:^7.3.5, semver@npm:^7.3.7":
+"semver@npm:^7.1.2, semver@npm:^7.3.5":
   version: 7.5.1
   resolution: "semver@npm:7.5.1"
   dependencies:
