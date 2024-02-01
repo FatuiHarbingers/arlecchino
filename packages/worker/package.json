@@ -7,7 +7,7 @@
 		"build": "rimraf tsconfig.tsbuildinfo dist && tsc",
 		"lint": "eslint src/ --fix --ext .ts --cache"
 	},
-	"packageManager": "yarn@3.7.0",
+	"packageManager": "yarn@3.8.0",
 	"devDependencies": {
 		"@types/node": "^20.11.16",
 		"eslint": "^8.56.0",
