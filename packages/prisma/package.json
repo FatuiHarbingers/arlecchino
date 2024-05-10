@@ -14,7 +14,7 @@
 		"@types/node": "^20.12.11",
 		"@yarnpkg/pnpify": "^4.1.0",
 		"eslint": "^9.2.0",
-		"rimraf": "^5.0.5",
+		"rimraf": "^5.0.6",
 		"typescript": "^5.4.5"
 	},
 	"dependencies": {
