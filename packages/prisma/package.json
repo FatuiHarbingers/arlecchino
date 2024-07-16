@@ -11,7 +11,7 @@
 	},
 	"packageManager": "yarn@3.8.3",
 	"devDependencies": {
-		"@types/node": "^20.14.10",
+		"@types/node": "^20.14.11",
 		"@yarnpkg/pnpify": "^4.1.0",
 		"eslint": "^9.7.0",
 		"rimraf": "^6.0.1",
