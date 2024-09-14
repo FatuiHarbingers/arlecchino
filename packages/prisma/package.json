@@ -12,7 +12,7 @@
 	"packageManager": "yarn@3.8.5",
 	"devDependencies": {
 		"@types/node": "^20.16.5",
-		"@yarnpkg/pnpify": "^4.1.1",
+		"@yarnpkg/pnpify": "^4.1.2",
 		"eslint": "^9.10.0",
 		"rimraf": "^6.0.1",
 		"typescript": "^5.6.2"
