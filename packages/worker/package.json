@@ -30,7 +30,7 @@
 		"bullmq": "^3.16.2",
 		"discord-api-types": "^0.37.105",
 		"i18next": "^22.5.1",
-		"i18next-fs-backend": "^2.3.2",
+		"i18next-fs-backend": "^2.4.0",
 		"ico-to-png": "^0.2.2",
 		"ioredis": "^5.4.1",
 		"undici": "^5.28.4"
