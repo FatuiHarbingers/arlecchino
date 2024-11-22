@@ -29,7 +29,7 @@
 		"@skyra/i18next-backend": "^2.0.5",
 		"bullmq": "^3.16.2",
 		"discord-api-types": "^0.37.107",
-		"i18next": "^22.5.1",
+		"i18next": "^23.16.8",
 		"i18next-fs-backend": "^2.5.0",
 		"ico-to-png": "^0.2.2",
 		"ioredis": "^5.4.1",
