@@ -9,7 +9,7 @@
 		"lint": "eslint src/ --fix --ext .ts --cache",
 		"generate": "yarn pnpify prisma generate"
 	},
-	"packageManager": "yarn@3.8.6",
+	"packageManager": "yarn@3.8.7",
 	"devDependencies": {
 		"@types/node": "^22.10.1",
 		"@yarnpkg/pnpify": "^4.1.3",
