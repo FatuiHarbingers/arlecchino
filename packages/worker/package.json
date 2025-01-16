@@ -33,6 +33,6 @@
 		"i18next-fs-backend": "^2.6.0",
 		"ico-to-png": "^0.2.2",
 		"ioredis": "^5.4.2",
-		"undici": "^5.28.4"
+		"undici": "^5.28.5"
 	}
 }
