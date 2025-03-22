@@ -10,7 +10,7 @@
 	"packageManager": "yarn@3.8.7",
 	"devDependencies": {
 		"@types/node": "^22.13.11",
-		"eslint": "^9.22.0",
+		"eslint": "^9.23.0",
 		"typescript": "^5.8.2"
 	},
 	"dependencies": {
