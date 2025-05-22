@@ -77,7 +77,7 @@ __metadata:
     "@sapphire/discord.js-utilities": ^6.1.0
     "@sapphire/duration": ^1.2.0
     "@sapphire/shapeshift": ^3.9.7
-    "@skyra/i18next-backend": ^2.0.5
+    "@skyra/i18next-backend": ^2.0.6
     "@types/node": ^22.15.21
     bullmq: ^3.16.2
     discord-api-types: ^0.38.8
@@ -658,12 +658,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skyra/i18next-backend@npm:^2.0.5":
-  version: 2.0.5
-  resolution: "@skyra/i18next-backend@npm:2.0.5"
+"@skyra/i18next-backend@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "@skyra/i18next-backend@npm:2.0.6"
   dependencies:
-    tslib: ^2.6.2
-  checksum: 368cbc92636485469a08445dc7f67c1ff1875a24ac094791525ca996275dfb2a6eb66860c9d0170b21964a84456246315467eb201f1a59c1a7388b7bb6d9595d
+    tslib: ^2.8.1
+  checksum: 56c7f1a91852bbfeb1da409a44f9141c3b9d9be86168800ced4e924a2f0a06675e8677919d0641483d4c90a2119ed5a88bff584ce6069c2029899530425fd27b
   languageName: node
   linkType: hard
 
@@ -3652,17 +3652,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.6.2":
-  version: 2.6.2
-  resolution: "tslib@npm:2.6.2"
-  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
-  languageName: node
-  linkType: hard
-
 "tslib@npm:^2.6.3":
   version: 2.7.0
   resolution: "tslib@npm:2.7.0"
   checksum: 1606d5c89f88d466889def78653f3aab0f88692e80bb2066d090ca6112ae250ec1cfa9dbfaab0d17b60da15a4186e8ec4d893801c67896b277c17374e36e1d28
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.8.1":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
   languageName: node
   linkType: hard
 
