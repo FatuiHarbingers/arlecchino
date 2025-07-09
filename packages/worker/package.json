@@ -9,7 +9,7 @@
 	},
 	"packageManager": "yarn@3.8.7",
 	"devDependencies": {
-		"@types/node": "^22.16.1",
+		"@types/node": "^22.16.2",
 		"eslint": "^9.30.1",
 		"typescript": "^5.8.3"
 	},
