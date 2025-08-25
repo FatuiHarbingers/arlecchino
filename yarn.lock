@@ -87,7 +87,7 @@ __metadata:
     ico-to-png: ^0.2.2
     ioredis: ^5.7.0
     typescript: ^5.9.2
-    undici: ^5.29.0
+    undici: ^7.15.0
   languageName: unknown
   linkType: soft
 
@@ -332,13 +332,6 @@ __metadata:
     "@eslint/core": ^0.15.2
     levn: ^0.4.1
   checksum: 1808d7e2538335b8e4536ef372840e93468ecc6f4a5bf72ad665795290b6a8a72f51ef4ffd8bcfc601b133a5d5f67b59ab256d945f8c825c5c307aad29efaf86
-  languageName: node
-  linkType: hard
-
-"@fastify/busboy@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@fastify/busboy@npm:2.0.0"
-  checksum: 41879937ce1dee6421ef9cd4da53239830617e1f0bb7a0e843940772cd72827205d05e518af6adabe6e1ea19301285fff432b9d11bad01a531e698bea95c781b
   languageName: node
   linkType: hard
 
@@ -3761,12 +3754,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^5.29.0":
-  version: 5.29.0
-  resolution: "undici@npm:5.29.0"
-  dependencies:
-    "@fastify/busboy": ^2.0.0
-  checksum: a25b5462c1b6ffb974f5ffc492ffd64146a9983aad0cbda6fde65e2b22f6f1acd43f09beacc66cc47624a113bd0c684ffc60366102b6a21b038fbfafb7d75195
+"undici@npm:^7.15.0":
+  version: 7.15.0
+  resolution: "undici@npm:7.15.0"
+  checksum: 9bae69237618f232b1baff38530478cc1b5d692e6bce1051aeb9e6a4c0d56c9596008adaa9c60ceda5ee0520023d8fd42830bbee2defa285e9c5d14844342ef5
   languageName: node
   linkType: hard
 
