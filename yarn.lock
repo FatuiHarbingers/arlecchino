@@ -85,7 +85,7 @@ __metadata:
     i18next: ^22.5.1
     i18next-fs-backend: ^2.6.1
     ico-to-png: ^0.2.2
-    ioredis: ^5.8.2
+    ioredis: ^5.9.0
     typescript: ^5.9.3
     undici: ^5.29.0
   languageName: unknown
@@ -391,10 +391,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ioredis/commands@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@ioredis/commands@npm:1.4.0"
-  checksum: c2fca9809f4a5508e9c23cd837fb575c0a6b04351643da08f6b66b3b72a6a89ad183dd2da216add28ea5d5b9141925a3c3e4fff74103225a59f70264da50e5f2
+"@ioredis/commands@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@ioredis/commands@npm:1.5.0"
+  checksum: 09fee2ca1c1e721a09cf5c16586d44513e0e89f8d99ea78ee04c9c61183156e6a7242c0edd1e8dc195c842c4ece05486beb3c94802a6b1f81ba969389cf75a54
   languageName: node
   linkType: hard
 
@@ -2368,11 +2368,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ioredis@npm:^5.8.2":
-  version: 5.8.2
-  resolution: "ioredis@npm:5.8.2"
+"ioredis@npm:^5.9.0":
+  version: 5.9.0
+  resolution: "ioredis@npm:5.9.0"
   dependencies:
-    "@ioredis/commands": 1.4.0
+    "@ioredis/commands": 1.5.0
     cluster-key-slot: ^1.1.0
     debug: ^4.3.4
     denque: ^2.1.0
@@ -2381,7 +2381,7 @@ __metadata:
     redis-errors: ^1.2.0
     redis-parser: ^3.0.0
     standard-as-callback: ^2.1.0
-  checksum: eb351f2559233858cf1792992a183b956e9d8a3cc29669fd068ba6a9b5e16576c07c7197dc7ad1e4b78ecfcd5319ba0ae9ca4a90ba1b66a81b125b6d38565f21
+  checksum: d3e5677c3270fb6c8e46999db79962fb3a58f79948e1b9aff3d5243689a09c982b52a1608eda78b5c96670770ccd027d593b7eba1a0aae25bf2f99aa70abcbc6
   languageName: node
   linkType: hard
 
