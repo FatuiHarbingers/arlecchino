@@ -85,7 +85,7 @@ __metadata:
     i18next: ^22.5.1
     i18next-fs-backend: ^2.6.1
     ico-to-png: ^0.2.2
-    ioredis: ^5.9.1
+    ioredis: ^5.9.2
     typescript: ^5.9.3
     undici: ^5.29.0
   languageName: unknown
@@ -2380,9 +2380,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ioredis@npm:^5.9.1":
-  version: 5.9.1
-  resolution: "ioredis@npm:5.9.1"
+"ioredis@npm:^5.9.2":
+  version: 5.9.2
+  resolution: "ioredis@npm:5.9.2"
   dependencies:
     "@ioredis/commands": 1.5.0
     cluster-key-slot: ^1.1.0
@@ -2393,7 +2393,7 @@ __metadata:
     redis-errors: ^1.2.0
     redis-parser: ^3.0.0
     standard-as-callback: ^2.1.0
-  checksum: e484ca54ea976ecc80e41620bdc45ad7ba2330589e91cec8577ad9fca8721e584c847bfc73af8d0681c3a7a81ee10f58561ced0226185bc955811f8efb83b9ad
+  checksum: fc7f330430cebf170b7adfd84b9a213ee750ce187c6b316d1f2d520192c01bfc82c08773e6b671ee4689c7bcaad7d517e7b8b385a80f99a49dd3b432e0e92326
   languageName: node
   linkType: hard
 
