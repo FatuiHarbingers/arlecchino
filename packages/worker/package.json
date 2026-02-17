@@ -25,7 +25,7 @@
 		"@quority/fandom": "^4.0.9",
 		"@sapphire/discord.js-utilities": "^6.1.0",
 		"@sapphire/duration": "^1.2.0",
-		"@sapphire/shapeshift": "^3.9.7",
+		"@sapphire/shapeshift": "^4.0.0",
 		"@skyra/i18next-backend": "^2.0.6",
 		"bullmq": "^3.16.2",
 		"discord-api-types": "^0.38.39",
