@@ -83,7 +83,7 @@ __metadata:
     discord-api-types: ^0.38.47
     eslint: ^10.2.1
     i18next: ^22.5.1
-    i18next-fs-backend: ^2.6.3
+    i18next-fs-backend: ^2.6.4
     ico-to-png: ^0.2.2
     ioredis: ^5.10.1
     typescript: ^6.0.3
@@ -2214,10 +2214,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next-fs-backend@npm:^2.6.3":
-  version: 2.6.3
-  resolution: "i18next-fs-backend@npm:2.6.3"
-  checksum: d52690627b46abbb8a7ac02c6c37791c9e6a73acb06e546b5d2c63c9acee4b7026cb6de50c746751c33cb1db485f94adff7ccef836a40ee5d1ce64afb3813464
+"i18next-fs-backend@npm:^2.6.4":
+  version: 2.6.4
+  resolution: "i18next-fs-backend@npm:2.6.4"
+  checksum: 49833d5cf8d3f39fbc9bd6ffcb505a4cb559437405a29f136d8803ba1e56efb3acf60b534beb4fae639c3756d3aa79b3a434084eabc7821769091e73fd1b86cf
   languageName: node
   linkType: hard
 
