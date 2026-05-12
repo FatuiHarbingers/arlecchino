@@ -28,7 +28,7 @@ __metadata:
     "@arlecchino/secrets": "workspace:^"
     "@discordjs/rest": ^1.7.1
     "@discordjs/ws": ^0.8.3
-    "@types/node": ^24.12.3
+    "@types/node": ^24.12.4
     eslint: ^10.3.0
     rimraf: ^6.1.3
     typescript: ^6.0.3
@@ -40,7 +40,7 @@ __metadata:
   resolution: "@arlecchino/prisma@workspace:packages/prisma"
   dependencies:
     "@prisma/client": ^4.16.2
-    "@types/node": ^24.12.3
+    "@types/node": ^24.12.4
     "@yarnpkg/pnpify": ^4.1.6
     eslint: ^10.3.0
     prisma: ^4.16.2
@@ -53,7 +53,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@arlecchino/secrets@workspace:packages/secrets"
   dependencies:
-    "@types/node": ^24.12.3
+    "@types/node": ^24.12.4
     eslint: ^10.3.0
     rimraf: ^6.1.3
     ts-dotenv: ^0.9.1
@@ -78,7 +78,7 @@ __metadata:
     "@sapphire/duration": ^1.2.0
     "@sapphire/shapeshift": ^3.9.7
     "@skyra/i18next-backend": ^2.0.6
-    "@types/node": ^24.12.3
+    "@types/node": ^24.12.4
     bullmq: ^3.16.2
     discord-api-types: ^0.38.47
     eslint: ^10.3.0
@@ -735,12 +735,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.12.3":
-  version: 24.12.3
-  resolution: "@types/node@npm:24.12.3"
+"@types/node@npm:^24.12.4":
+  version: 24.12.4
+  resolution: "@types/node@npm:24.12.4"
   dependencies:
     undici-types: ~7.16.0
-  checksum: 57f84d4ca7c398358e230580eeed5f92675fd8b12ef90a87f2be212daaddef583a5baf3f92ced825dbafbc28f50739a9f5a8a2cb79315a8699f99ddbce5f54fe
+  checksum: 1fbacea2224e98aedcac45df9d71ccf3af138707b131c33b8c6b1e65fab3e41992d826eb92e229a52408ef0983f24f6c711cf69054274001732677ce5559d934
   languageName: node
   linkType: hard
 
@@ -1234,7 +1234,7 @@ __metadata:
   resolution: "arlecchino@workspace:."
   dependencies:
     "@bitomic/eslint-config": ^1.3.0
-    "@types/node": ^24.12.3
+    "@types/node": ^24.12.4
     "@typescript-eslint/eslint-plugin": ^8.59.3
     "@typescript-eslint/parser": ^8.59.3
     eslint: ^10.3.0
