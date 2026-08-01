@@ -85,7 +85,7 @@ __metadata:
     i18next: ^22.5.1
     i18next-fs-backend: ^2.6.7
     ico-to-png: ^0.2.2
-    ioredis: ^5.11.1
+    ioredis: ^6.0.0
     typescript: ^6.0.3
     undici: ^5.29.0
   languageName: unknown
@@ -360,10 +360,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ioredis/commands@npm:1.10.0":
-  version: 1.10.0
-  resolution: "@ioredis/commands@npm:1.10.0"
-  checksum: 6c4dcafeb94e3a07bfa458e01d8098cd71b7bbee8e089bd03a766e80a0055c34aa56910a25392642ebfcf9002e2537152cad15f5ad36b0b4e995caf929d676b4
+"@ioredis/commands@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@ioredis/commands@npm:2.0.0"
+  checksum: a51c354aedf35c283fee7b3a1af0922cca825c859d6abf77361d543dcae6a840b2b0c4ca993f77aa086517f28a349ce5e6d414c75fc92f5f34ad54bddebb279d
   languageName: node
   linkType: hard
 
@@ -2325,21 +2325,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ioredis@npm:^5.11.1":
-  version: 5.11.1
-  resolution: "ioredis@npm:5.11.1"
-  dependencies:
-    "@ioredis/commands": 1.10.0
-    cluster-key-slot: 1.1.1
-    debug: 4.4.3
-    denque: 2.1.0
-    redis-errors: 1.2.0
-    redis-parser: 3.0.0
-    standard-as-callback: 2.1.0
-  checksum: 5bd57289d83b32fd4e2f9f48ed34ac9518963c0937de649751d4dd874234a2ca0924a45ce60c83e2a3fffb707f3b2b0e683666187a5b12e397ee9f0a2189f342
-  languageName: node
-  linkType: hard
-
 "ioredis@npm:^5.3.2":
   version: 5.3.2
   resolution: "ioredis@npm:5.3.2"
@@ -2354,6 +2339,20 @@ __metadata:
     redis-parser: ^3.0.0
     standard-as-callback: ^2.1.0
   checksum: 9a23559133e862a768778301efb68ae8c2af3c33562174b54a4c2d6574b976e85c75a4c34857991af733e35c48faf4c356e7daa8fb0a3543d85ff1768c8754bc
+  languageName: node
+  linkType: hard
+
+"ioredis@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "ioredis@npm:6.0.0"
+  dependencies:
+    "@ioredis/commands": 2.0.0
+    cluster-key-slot: 1.1.1
+    debug: 4.4.3
+    denque: 2.1.0
+    redis-errors: 1.2.0
+    standard-as-callback: 2.1.0
+  checksum: 91ae539cffdc982fb7a0692e43be843ed9a5ac9b2ba05d54f5edd2d18a169c60b630c7849177a936dbcb89a7a523d6cc67a24ab53678f3c566d03339300ecf33
   languageName: node
   linkType: hard
 
@@ -3186,7 +3185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redis-parser@npm:3.0.0, redis-parser@npm:^3.0.0":
+"redis-parser@npm:^3.0.0":
   version: 3.0.0
   resolution: "redis-parser@npm:3.0.0"
   dependencies:
