@@ -29,7 +29,7 @@ __metadata:
     "@discordjs/rest": ^1.7.1
     "@discordjs/ws": ^0.8.3
     "@types/node": ^24.13.3
-    eslint: ^10.9.0
+    eslint: ^10.9.1
     rimraf: ^6.1.3
     typescript: ^6.0.3
   languageName: unknown
@@ -42,7 +42,7 @@ __metadata:
     "@prisma/client": ^4.16.2
     "@types/node": ^24.13.3
     "@yarnpkg/pnpify": ^4.1.7
-    eslint: ^10.9.0
+    eslint: ^10.9.1
     prisma: ^4.16.2
     rimraf: ^6.1.3
     typescript: ^6.0.3
@@ -54,7 +54,7 @@ __metadata:
   resolution: "@arlecchino/secrets@workspace:packages/secrets"
   dependencies:
     "@types/node": ^24.13.3
-    eslint: ^10.9.0
+    eslint: ^10.9.1
     rimraf: ^6.1.3
     ts-dotenv: ^0.9.1
     typescript: ^6.0.3
@@ -81,7 +81,7 @@ __metadata:
     "@types/node": ^24.13.3
     bullmq: ^3.16.2
     discord-api-types: ^0.38.53
-    eslint: ^10.9.0
+    eslint: ^10.9.1
     i18next: ^22.5.1
     i18next-fs-backend: ^2.6.7
     ico-to-png: ^0.2.2
@@ -1225,7 +1225,7 @@ __metadata:
     "@types/node": ^24.13.3
     "@typescript-eslint/eslint-plugin": ^8.67.0
     "@typescript-eslint/parser": ^8.67.0
-    eslint: ^10.9.0
+    eslint: ^10.9.1
     rimraf: ^6.1.3
     typescript: ^6.0.3
   languageName: unknown
@@ -1793,9 +1793,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.9.0":
-  version: 10.9.0
-  resolution: "eslint@npm:10.9.0"
+"eslint@npm:^10.9.1":
+  version: 10.9.1
+  resolution: "eslint@npm:10.9.1"
   dependencies:
     "@eslint-community/eslint-utils": ^4.8.0
     "@eslint-community/regexpp": ^4.12.2
@@ -1834,7 +1834,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 05eec36548bb9627b2b6ca052e83fd77c35e1cdccc5ef3ff6de46122d80958b06fa1ba0da30dd18bf0bbfe76b405bc93acee5df0ab6ff36603a0b99e83c9b371
+  checksum: 48c01ad51ae0972054170a1d35e3cd2ddf3136651b2de97244c59ef39828d0f72c41644fe1df050c290638da4ed184a213823377bfd3221a92b1b285ab397ad4
   languageName: node
   linkType: hard
 
