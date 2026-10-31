@@ -69,7 +69,7 @@ __metadata:
     "@arlecchino/prisma": "workspace:^"
     "@arlecchino/secrets": "workspace:^"
     "@bitomic/logger": ^1.1.0
-    "@discordjs/builders": ^1.14.1
+    "@discordjs/builders": ^1.15.0
     "@discordjs/formatters": ^0.6.2
     "@quority/activity": ^1.1.2
     "@quority/core": ^4.0.4
@@ -175,18 +175,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@discordjs/builders@npm:^1.14.1":
-  version: 1.14.1
-  resolution: "@discordjs/builders@npm:1.14.1"
+"@discordjs/builders@npm:^1.15.0":
+  version: 1.15.0
+  resolution: "@discordjs/builders@npm:1.15.0"
   dependencies:
     "@discordjs/formatters": ^0.6.2
     "@discordjs/util": ^1.2.0
     "@sapphire/shapeshift": ^4.0.0
-    discord-api-types: ^0.38.40
+    discord-api-types: ^0.38.50
     fast-deep-equal: ^3.1.3
     ts-mixer: ^6.0.4
     tslib: ^2.6.3
-  checksum: dbdd90cfb73e22ce5e464720e23babe99609b35fd6707c1ff5bc08c7695d56b8d26a09c685d2d0c20e63345aa7da08d396251f2d741fd12cdd2267f6ea962fa9
+  checksum: 6ed5ccc2f364045f8ffa24fb2d31df82b2de9a2348c6ab4d3117abecd6e2d17ef1a3d5125511f6043562059a3ed06708825f9a348153d896c6a2eacf0417c539
   languageName: node
   linkType: hard
 
@@ -1738,14 +1738,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.38.40":
-  version: 0.38.42
-  resolution: "discord-api-types@npm:0.38.42"
-  checksum: 2cde717a24def6e905bd7c218f63bcc08093868c29207de2cc294cef17a738ff0028048324e86e8bff31ec7957942c9e0112f2830772d0db77a02e5bfbb5abcb
-  languageName: node
-  linkType: hard
-
-"discord-api-types@npm:^0.38.57":
+"discord-api-types@npm:^0.38.50, discord-api-types@npm:^0.38.57":
   version: 0.38.57
   resolution: "discord-api-types@npm:0.38.57"
   checksum: 5618a8b259cd71e1dd61923c23f49d9863e2dba5d30d393411acdc04be941b380aa367e7cbfd28e747e81e2b992572d76a3cff87a4ea39ef9138bb80e8baf626
