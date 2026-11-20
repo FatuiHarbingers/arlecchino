@@ -80,7 +80,7 @@ __metadata:
     "@skyra/i18next-backend": ^2.0.6
     "@types/node": ^26.6.6
     bullmq: ^3.16.2
-    discord-api-types: ^0.38.59
+    discord-api-types: ^0.38.60
     eslint: ^10.15.0
     i18next: ^22.5.1
     i18next-fs-backend: ^2.7.0
@@ -1754,10 +1754,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.38.59":
-  version: 0.38.59
-  resolution: "discord-api-types@npm:0.38.59"
-  checksum: fe697b6b8c5fac93afea1ac917f2d08028166ff7006a3cb6f6735089dda7fbdb1cef40cea52b69bb8900a8321a73ee715c01df8bdcf2d66c5a2625b0ff9d962b
+"discord-api-types@npm:^0.38.60":
+  version: 0.38.60
+  resolution: "discord-api-types@npm:0.38.60"
+  checksum: dffe722d0812349575e1815ce97a5738a9ceec87c492062c0a1267de71eef328d136caf3deb70da05b77a6945da9ba8357ed65056930cc1543513e43e4935792
   languageName: node
   linkType: hard
 
